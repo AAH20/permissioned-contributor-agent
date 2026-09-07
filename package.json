@@ -1,0 +1,7 @@
+{
+  "name": "permissioned-contributor-agent-screenshot-tooling",
+  "private": true,
+  "description": "Optional local Chrome screenshot tooling; Python runtime is separate",
+  "devDependencies": {"puppeteer-core": "25.2.0"},
+  "scripts": {"screenshot": "node scripts/screenshot.cjs"}
+}

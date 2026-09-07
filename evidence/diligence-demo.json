@@ -1,0 +1,279 @@
+{
+  "mode": "SYNTHETIC_SPECIALIST_REPLAY_REAL_LANGGRAPH",
+  "upstream": "AAH20/A2Z_due-diligence-agents",
+  "upstream_commit": "6aeabb4046e04f2979571fbb536fa43614d8c2db",
+  "parameters": {
+    "max_iterations": 2,
+    "max_seconds": 30,
+    "top_k": 3,
+    "max_context_chars": 12000,
+    "graph_hops": 1,
+    "max_model_calls": 0,
+    "max_external_writes": 0
+  },
+  "iterations": 2,
+  "domains": 9,
+  "findings": [
+    {
+      "domain": "legal",
+      "document": "msa",
+      "quote": "Termination requires 90 days notice.",
+      "severity": "P1",
+      "finding": "Validate notice window before renewal.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "finance",
+      "document": "msa",
+      "quote": "Annual service fees are $120000.",
+      "severity": "P2",
+      "finding": "Reconcile committed fees with approved budget.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "commercial",
+      "document": "msa",
+      "quote": "Customer Orion accounts for 40% of supplier revenue.",
+      "severity": "P1",
+      "finding": "Request concentration mitigation evidence.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "producttech",
+      "document": "security",
+      "quote": "The service relies on one region.",
+      "severity": "P1",
+      "finding": "Request recovery design and failover test evidence.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "cybersecurity",
+      "document": "security",
+      "quote": "Privileged accounts do not require MFA.",
+      "severity": "P1",
+      "finding": "Escalate privileged-access control gap to a human security reviewer.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "hr",
+      "document": "people",
+      "quote": "One employee administers production.",
+      "severity": "P2",
+      "finding": "Check segregation and key-person continuity.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "tax",
+      "document": "people",
+      "quote": "Tax residency documentation was not provided.",
+      "severity": "P2",
+      "finding": "Evidence gap; no tax conclusion.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "regulatory",
+      "document": "register",
+      "quote": "Subprocessor approval evidence is missing.",
+      "severity": "P1",
+      "finding": "Evidence gap; verify applicable obligations with counsel.",
+      "validation": "exact_source_quote"
+    },
+    {
+      "domain": "esg",
+      "document": "people",
+      "quote": "Environmental reporting is not supplied.",
+      "severity": "P3",
+      "finding": "Evidence gap; establish contractual applicability.",
+      "validation": "exact_source_quote"
+    }
+  ],
+  "review": {
+    "run_id": "synthetic-demo",
+    "payload_digest": "cf0b7c3f99cd127d34b991cef9db77c7a43cc8e98a540dd5533c6f17d013a29b",
+    "findings": [
+      {
+        "domain": "legal",
+        "document": "msa",
+        "quote": "Termination requires 90 days notice.",
+        "severity": "P1",
+        "finding": "Validate notice window before renewal.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "finance",
+        "document": "msa",
+        "quote": "Annual service fees are $120000.",
+        "severity": "P2",
+        "finding": "Reconcile committed fees with approved budget.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "commercial",
+        "document": "msa",
+        "quote": "Customer Orion accounts for 40% of supplier revenue.",
+        "severity": "P1",
+        "finding": "Request concentration mitigation evidence.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "producttech",
+        "document": "security",
+        "quote": "The service relies on one region.",
+        "severity": "P1",
+        "finding": "Request recovery design and failover test evidence.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "cybersecurity",
+        "document": "security",
+        "quote": "Privileged accounts do not require MFA.",
+        "severity": "P1",
+        "finding": "Escalate privileged-access control gap to a human security reviewer.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "hr",
+        "document": "people",
+        "quote": "One employee administers production.",
+        "severity": "P2",
+        "finding": "Check segregation and key-person continuity.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "tax",
+        "document": "people",
+        "quote": "Tax residency documentation was not provided.",
+        "severity": "P2",
+        "finding": "Evidence gap; no tax conclusion.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "regulatory",
+        "document": "register",
+        "quote": "Subprocessor approval evidence is missing.",
+        "severity": "P1",
+        "finding": "Evidence gap; verify applicable obligations with counsel.",
+        "validation": "exact_source_quote"
+      },
+      {
+        "domain": "esg",
+        "document": "people",
+        "quote": "Environmental reporting is not supplied.",
+        "severity": "P3",
+        "finding": "Evidence gap; establish contractual applicability.",
+        "validation": "exact_source_quote"
+      }
+    ],
+    "notice": "SYNTHETIC replay. Human assessment required. No external effects."
+  },
+  "status": "pending_human_review",
+  "graph": {
+    "nodes": [
+      {
+        "id": "doc:73ea0bc44e43",
+        "node_type": "document",
+        "file_path": "msa",
+        "doc_type": "synthetic",
+        "tenant": "synthetic-bank",
+        "room": "aster-renewal"
+      },
+      {
+        "id": "doc:5d2d3ceb7abe",
+        "node_type": "document",
+        "file_path": "security",
+        "doc_type": "synthetic",
+        "tenant": "synthetic-bank",
+        "room": "aster-renewal"
+      },
+      {
+        "id": "doc:c9022680f888",
+        "node_type": "document",
+        "file_path": "people",
+        "doc_type": "synthetic",
+        "tenant": "synthetic-bank",
+        "room": "aster-renewal"
+      },
+      {
+        "id": "doc:87780fa5de68",
+        "node_type": "document",
+        "file_path": "register",
+        "doc_type": "synthetic",
+        "tenant": "synthetic-bank",
+        "room": "aster-renewal"
+      }
+    ],
+    "edges": [
+      {
+        "source_id": "doc:73ea0bc44e43",
+        "target_id": "doc:5d2d3ceb7abe",
+        "edge_type": "references",
+        "confidence": 1.0,
+        "created_by": "",
+        "created_at": "",
+        "metadata": {}
+      },
+      {
+        "source_id": "doc:73ea0bc44e43",
+        "target_id": "doc:87780fa5de68",
+        "edge_type": "references",
+        "confidence": 1.0,
+        "created_by": "",
+        "created_at": "",
+        "metadata": {}
+      },
+      {
+        "source_id": "doc:5d2d3ceb7abe",
+        "target_id": "doc:73ea0bc44e43",
+        "edge_type": "references",
+        "confidence": 1.0,
+        "created_by": "",
+        "created_at": "",
+        "metadata": {}
+      },
+      {
+        "source_id": "doc:87780fa5de68",
+        "target_id": "doc:73ea0bc44e43",
+        "edge_type": "references",
+        "confidence": 1.0,
+        "created_by": "",
+        "created_at": "",
+        "metadata": {}
+      }
+    ]
+  },
+  "graph_context": "Document: msa\nType: synthetic\n\nRelationships (outgoing):\n  -> references: security\n  -> references: register\nRelationships (incoming):\n  <- references: security\n  <- references: register",
+  "retrieval_demo": [
+    {
+      "id": "msa",
+      "text": "SYNTHETIC. Termination requires 90 days notice. Annual service fees are $120000. Customer Orion accounts for 40% of supplier revenue.",
+      "references": [
+        "security",
+        "register"
+      ],
+      "tenant": "synthetic-bank",
+      "room": "aster-renewal"
+    },
+    {
+      "id": "security",
+      "text": "SYNTHETIC. Privileged accounts do not require MFA. The service relies on one region. Incident exercise evidence is unavailable.",
+      "references": [
+        "msa"
+      ],
+      "tenant": "synthetic-bank",
+      "room": "aster-renewal"
+    },
+    {
+      "id": "register",
+      "text": "SYNTHETIC. Subprocessor approval evidence is missing. The renewal decision remains with the procurement committee.",
+      "references": [
+        "msa"
+      ],
+      "tenant": "synthetic-bank",
+      "room": "aster-renewal"
+    }
+  ],
+  "llm_calls": 0,
+  "pinecone_calls": 0,
+  "external_writes": 0,
+  "limitation": "Nine supplied findings replay specialist roles; no model-generated diligence or compliance verdict."
+}

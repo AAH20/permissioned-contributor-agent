@@ -1,0 +1,11 @@
+{
+  "tenant": "personal-local",
+  "member": "replace-with-your-local-member-id",
+  "version": "1",
+  "sources": ["github"],
+  "repositories": ["kubernetes/website"],
+  "channels": [],
+  "skills": ["documentation", "go", "good first issue"],
+  "max_age_days": 30,
+  "limit": 5
+}

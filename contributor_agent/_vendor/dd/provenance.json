@@ -1,0 +1,84 @@
+{
+  "repo": "https://github.com/AAH20/A2Z_due-diligence-agents",
+  "commit": "6aeabb4046e04f2979571fbb536fa43614d8c2db",
+  "files": [
+    {
+      "source": "src/dd_agents/knowledge/graph.py",
+      "target": "graph.py",
+      "upstream_sha256": "1fc30b02085a52dc09aabab1353d40cc4ec7671192cce43c6e17bca687ebe083",
+      "local_sha256": "2e409476c5f8a916b8364ea25a0a60f54c982b284e80e7136da78e3eab379cd5"
+    },
+    {
+      "source": "src/dd_agents/knowledge/_utils.py",
+      "target": "_utils.py",
+      "upstream_sha256": "4f2c6ad4746ec4fd9fa419af93b33fac69eed52541696e952fb866afbed03080",
+      "local_sha256": "4f2c6ad4746ec4fd9fa419af93b33fac69eed52541696e952fb866afbed03080"
+    },
+    {
+      "source": "src/dd_agents/validation/quote_guard.py",
+      "target": "quote_guard.py",
+      "upstream_sha256": "7fd74767bbc705738db8a045d4c4838265f3507a0549df4464bbac9d2a1e2d87",
+      "local_sha256": "7fd74767bbc705738db8a045d4c4838265f3507a0549df4464bbac9d2a1e2d87"
+    },
+    {
+      "source": "LICENSE",
+      "target": "LICENSE",
+      "upstream_sha256": "d8550541c2edd03289b12883263eeda85d73a14bf4ebc46fa137e6aae7a0013e",
+      "local_sha256": "d8550541c2edd03289b12883263eeda85d73a14bf4ebc46fa137e6aae7a0013e"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/legal.md",
+      "target": "prompts/legal.md",
+      "upstream_sha256": "bcb6c8518881e10a3331e7116a36ce466b365cfb298dcf575a44df040698bbae",
+      "local_sha256": "bcb6c8518881e10a3331e7116a36ce466b365cfb298dcf575a44df040698bbae"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/finance.md",
+      "target": "prompts/finance.md",
+      "upstream_sha256": "b1d0cc193e9ce76a9b964d051c2b3ed64eec5876ee1a0ba2ec4cc00b447d2839",
+      "local_sha256": "b1d0cc193e9ce76a9b964d051c2b3ed64eec5876ee1a0ba2ec4cc00b447d2839"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/commercial.md",
+      "target": "prompts/commercial.md",
+      "upstream_sha256": "13f7e0dc5da8add3ab5112bb6193b97ada06692d41de57541a98e4ad30ee37c7",
+      "local_sha256": "13f7e0dc5da8add3ab5112bb6193b97ada06692d41de57541a98e4ad30ee37c7"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/producttech.md",
+      "target": "prompts/producttech.md",
+      "upstream_sha256": "8fe11eb15971ab25f90da5f5a75ab5aad1ed71e43002f3854edc08046cd27b46",
+      "local_sha256": "8fe11eb15971ab25f90da5f5a75ab5aad1ed71e43002f3854edc08046cd27b46"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/cybersecurity.md",
+      "target": "prompts/cybersecurity.md",
+      "upstream_sha256": "d5743e8d89bc9fad47fd13f35d4b65ff53a18743c930f52dee1986227da86ae5",
+      "local_sha256": "d5743e8d89bc9fad47fd13f35d4b65ff53a18743c930f52dee1986227da86ae5"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/hr.md",
+      "target": "prompts/hr.md",
+      "upstream_sha256": "da45b9148984c4768141ec2989e07a030ac55d3197830e5b661011cb7ddd964d",
+      "local_sha256": "da45b9148984c4768141ec2989e07a030ac55d3197830e5b661011cb7ddd964d"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/tax.md",
+      "target": "prompts/tax.md",
+      "upstream_sha256": "2df0922c8545c11df8de2362e7f55f5345263bfdb94caa74c5d527f8e701b66f",
+      "local_sha256": "2df0922c8545c11df8de2362e7f55f5345263bfdb94caa74c5d527f8e701b66f"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/regulatory.md",
+      "target": "prompts/regulatory.md",
+      "upstream_sha256": "72f023f6448e80e33e0e986f0f88381795e806617aa6f9ed5fbab926b23f23ae",
+      "local_sha256": "72f023f6448e80e33e0e986f0f88381795e806617aa6f9ed5fbab926b23f23ae"
+    },
+    {
+      "source": "src/dd_agents/agents/prompts/specialists/esg.md",
+      "target": "prompts/esg.md",
+      "upstream_sha256": "1076ca7baecc54a1bd00bb2ba95169338ad36b8dfb3d038e0d19e3761f66aba8",
+      "local_sha256": "1076ca7baecc54a1bd00bb2ba95169338ad36b8dfb3d038e0d19e3761f66aba8"
+    }
+  ]
+}

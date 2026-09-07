@@ -1,0 +1,21 @@
+{
+  "label": "SYNTHETIC ONLY — Aster Bank supplier renewal exercise",
+  "tenant": "synthetic-bank", "member": "synthetic-reviewer", "room": "aster-renewal",
+  "documents": [
+    {"id":"msa", "text":"SYNTHETIC. Termination requires 90 days notice. Annual service fees are $120000. Customer Orion accounts for 40% of supplier revenue.", "references":["security","register"]},
+    {"id":"security", "text":"SYNTHETIC. Privileged accounts do not require MFA. The service relies on one region. Incident exercise evidence is unavailable.", "references":["msa"]},
+    {"id":"people", "text":"SYNTHETIC. One employee administers production. Tax residency documentation was not provided. Environmental reporting is not supplied.", "references":[]},
+    {"id":"register", "text":"SYNTHETIC. Subprocessor approval evidence is missing. The renewal decision remains with the procurement committee.", "references":["msa"]}
+  ],
+  "findings": [
+    {"domain":"legal","document":"msa","quote":"Termination requires 90 days notice.","severity":"P1","finding":"Validate notice window before renewal."},
+    {"domain":"finance","document":"msa","quote":"Annual service fees are $120000.","severity":"P2","finding":"Reconcile committed fees with approved budget."},
+    {"domain":"commercial","document":"msa","quote":"Customer Orion accounts for 40% of supplier revenue.","severity":"P1","finding":"Request concentration mitigation evidence."},
+    {"domain":"producttech","document":"security","quote":"The service relies on one region.","severity":"P1","finding":"Request recovery design and failover test evidence."},
+    {"domain":"cybersecurity","document":"security","quote":"Privileged accounts do not require MFA.","severity":"P1","finding":"Escalate privileged-access control gap to a human security reviewer."},
+    {"domain":"hr","document":"people","quote":"One employee administers production.","severity":"P2","finding":"Check segregation and key-person continuity."},
+    {"domain":"tax","document":"people","quote":"Tax residency documentation was not provided.","severity":"P2","finding":"Evidence gap; no tax conclusion."},
+    {"domain":"regulatory","document":"register","quote":"Subprocessor approval evidence is missing.","severity":"P1","finding":"Evidence gap; verify applicable obligations with counsel."},
+    {"domain":"esg","document":"people","quote":"Environmental reporting is not supplied.","severity":"P3","finding":"Evidence gap; establish contractual applicability."}
+  ]
+}

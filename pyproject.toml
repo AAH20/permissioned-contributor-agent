@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "permissioned-contributor-agent"
+version = "0.2.0"
+description = "AI agent governance and evaluation with consent, human approval, LangGraph loops and graph-assisted retrieval"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+keywords = ["ai-agent-governance", "ai-agent-evaluation", "langgraph", "mcp-security", "human-in-the-loop", "graphrag"]
+
+[project.urls]
+Homepage = "https://a2zsoc.com"
+Repository = "https://github.com/AAH20/permissioned-contributor-agent"
+Documentation = "https://github.com/AAH20/permissioned-contributor-agent/tree/main/docs"
+Issues = "https://github.com/AAH20/permissioned-contributor-agent/issues"
+
+[project.optional-dependencies]
+demo = ["langgraph==1.2.11", "networkx==3.6.1", "pydantic==2.13.5"]
+
+[tool.setuptools.packages.find]
+include = ["contributor_agent*"]
+
+[tool.setuptools.package-data]
+"contributor_agent._vendor.dd" = ["LICENSE", "NOTICE.md", "provenance.json", "prompts/*.md"]

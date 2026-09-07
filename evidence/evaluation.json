@@ -1,0 +1,333 @@
+{
+  "at": 1788773447.560523,
+  "duration_seconds": 0.5739078521728516,
+  "tests_run": 57,
+  "passed": true,
+  "cases": [
+    {
+      "test": "test_agent.Evaluation.test_changed_policy",
+      "status": "PASS",
+      "seconds": 0.00015200022608041763
+    },
+    {
+      "test": "test_agent.Evaluation.test_cross_member",
+      "status": "PASS",
+      "seconds": 3.195786848664284e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_cross_tenant",
+      "status": "PASS",
+      "seconds": 2.0541250705718994e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_deduplicate",
+      "status": "PASS",
+      "seconds": 0.00014679087325930595
+    },
+    {
+      "test": "test_agent.Evaluation.test_expired",
+      "status": "PASS",
+      "seconds": 3.129197284579277e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_github_no_read_without_consent",
+      "status": "PASS",
+      "seconds": 2.5083310902118683e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_injection_is_inert",
+      "status": "PASS",
+      "seconds": 4.4374726712703705e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_no_match",
+      "status": "PASS",
+      "seconds": 3.1542032957077026e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_nonfinite_consent_denied",
+      "status": "PASS",
+      "seconds": 3.170780837535858e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_private_and_dm_denied",
+      "status": "PASS",
+      "seconds": 5.4459087550640106e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_private_repository_before_issue_read",
+      "status": "PASS",
+      "seconds": 0.0003028339706361294
+    },
+    {
+      "test": "test_agent.Evaluation.test_relevant",
+      "status": "PASS",
+      "seconds": 3.875000402331352e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_review_and_replay",
+      "status": "PASS",
+      "seconds": 5.191704258322716e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_review_expiration",
+      "status": "PASS",
+      "seconds": 4.379218444228172e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_revocation_purges",
+      "status": "PASS",
+      "seconds": 3.8125086575746536e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_slack_preflight",
+      "status": "PASS",
+      "seconds": 0.0012445412576198578
+    },
+    {
+      "test": "test_agent.Evaluation.test_spoofed_urls",
+      "status": "PASS",
+      "seconds": 0.00011470774188637733
+    },
+    {
+      "test": "test_agent.Evaluation.test_stale_closed_future",
+      "status": "PASS",
+      "seconds": 5.262484773993492e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_unapproved_repository",
+      "status": "PASS",
+      "seconds": 2.5708694010972977e-05
+    },
+    {
+      "test": "test_agent.Evaluation.test_wrong_purpose",
+      "status": "PASS",
+      "seconds": 2.3041851818561554e-05
+    },
+    {
+      "test": "test_agent.GitHubAvailability.test_assigned_unknown_and_pull_requests_excluded",
+      "status": "PASS",
+      "seconds": 4.7083012759685516e-05
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_actual_upstream_graph",
+      "status": "PASS",
+      "seconds": 0.0013509159907698631
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_approval_replay",
+      "status": "PASS",
+      "seconds": 0.4533063331618905
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_bounded_repair",
+      "status": "PASS",
+      "seconds": 0.006072540767490864
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_changed_grant_invalidates_review",
+      "status": "PASS",
+      "seconds": 0.003754416946321726
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_cross_member_retrieval",
+      "status": "PASS",
+      "seconds": 0.00020720809698104858
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_cross_tenant_before_graph",
+      "status": "PASS",
+      "seconds": 9.987503290176392e-05
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_expired_consent_before_document_iteration",
+      "status": "PASS",
+      "seconds": 9.941589087247849e-05
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_foreign_reference_never_expands",
+      "status": "PASS",
+      "seconds": 0.00013450020924210548
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_fractional_and_boolean_loop_counts_rejected",
+      "status": "PASS",
+      "seconds": 8.375011384487152e-05
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_missing_domain_abstains",
+      "status": "PASS",
+      "seconds": 0.004520250018686056
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_nine_domain_human_interrupt",
+      "status": "PASS",
+      "seconds": 0.0034768329933285713
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_nonfinite_room_consent_denied",
+      "status": "PASS",
+      "seconds": 0.0002049580216407776
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_pinecone_contract_scope",
+      "status": "PASS",
+      "seconds": 0.0001232922077178955
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_pinecone_no_call_when_revoked",
+      "status": "PASS",
+      "seconds": 8.708424866199493e-05
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_quote_fabrication",
+      "status": "PASS",
+      "seconds": 8.012540638446808e-05
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_retrieved_context_budget",
+      "status": "PASS",
+      "seconds": 0.00016195932403206825
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_revocation_before_resume",
+      "status": "PASS",
+      "seconds": 0.0036822916008532047
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_tampered_approval",
+      "status": "PASS",
+      "seconds": 0.004880041815340519
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_time_budget",
+      "status": "PASS",
+      "seconds": 0.0031680003739893436
+    },
+    {
+      "test": "test_diligence.DiligenceEvaluation.test_unsafe_loop",
+      "status": "PASS",
+      "seconds": 0.00024174991995096207
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_any_critical_failure_blocks",
+      "status": "PASS",
+      "seconds": 0.00031300028786063194
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_component_latency_cannot_satisfy_release",
+      "status": "PASS",
+      "seconds": 0.00010424992069602013
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_config_cannot_weaken_hard_gates",
+      "status": "PASS",
+      "seconds": 0.00014962488785386086
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_never_auto_promotes",
+      "status": "PASS",
+      "seconds": 9.395880624651909e-05
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_parameter_proposals_never_apply",
+      "status": "PASS",
+      "seconds": 9.112479165196419e-05
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_quality_regression_blocks",
+      "status": "PASS",
+      "seconds": 6.858399137854576e-05
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_synthetic_metrics_cannot_release",
+      "status": "PASS",
+      "seconds": 7.741618901491165e-05
+    },
+    {
+      "test": "test_evolution.EvolutionEvaluation.test_unknown_nan_and_small_samples_block",
+      "status": "PASS",
+      "seconds": 8.570821955800056e-05
+    },
+    {
+      "test": "test_metrics.MetricEvaluation.test_duplicate_and_nonfinite_rejected",
+      "status": "PASS",
+      "seconds": 4.129204899072647e-05
+    },
+    {
+      "test": "test_metrics.MetricEvaluation.test_empty_is_not_perfect",
+      "status": "PASS",
+      "seconds": 8.167233318090439e-06
+    },
+    {
+      "test": "test_metrics.MetricEvaluation.test_independent_units_deduplicated",
+      "status": "PASS",
+      "seconds": 9.812507778406143e-05
+    },
+    {
+      "test": "test_metrics.MetricEvaluation.test_measured_denominators",
+      "status": "PASS",
+      "seconds": 4.008365795016289e-05
+    },
+    {
+      "test": "test_metrics.MetricEvaluation.test_zero_denominator_is_null",
+      "status": "PASS",
+      "seconds": 3.283284604549408e-05
+    },
+    {
+      "test": "test_provenance.ProvenanceEvaluation.test_policy_references_are_pinned",
+      "status": "PASS",
+      "seconds": 0.00021920911967754364
+    },
+    {
+      "test": "test_provenance.ProvenanceEvaluation.test_vendored_sources_match_manifest",
+      "status": "PASS",
+      "seconds": 0.0025717918761074543
+    },
+    {
+      "test": "test_publication.PublicationEvaluation.test_no_private_working_files",
+      "status": "PASS",
+      "seconds": 0.003623375203460455
+    }
+  ],
+  "failures": 0,
+  "errors": 0,
+  "synthetic_kpis": {
+    "mode": "synthetic_or_mixed",
+    "case_count": 9,
+    "latency_scope": "retrieval_and_verification",
+    "independent_cases": 0,
+    "critical_cases": 0,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "critical_false_negatives": 0,
+    "unsupported_critical_claims": 0,
+    "citation_precision": 1.0,
+    "retrieval_recall": 1.0,
+    "relevance_at_5": null,
+    "p95_seconds": 7.833307608962059e-05,
+    "abstention_rate": 0,
+    "completion_rate": 1,
+    "mean_iterations": 1,
+    "cost_per_case_usd": 0
+  },
+  "release_gate": {
+    "status": "blocked",
+    "reasons": [
+      "end_to_end_latency_required",
+      "independent_holdout_required",
+      "sample_gate:independent_cases",
+      "sample_gate:critical_cases",
+      "missing_or_invalid:relevance_at_5"
+    ],
+    "auto_promote": false,
+    "limitation": "Trusted independent evaluator labels are required; this is not an operational error guarantee."
+  },
+  "measurement_scope": "Nine exact-quote retrieval checks on supplied synthetic findings. Not independent diligence accuracy. Timings exclude human wait and the full workflow.",
+  "release_gate_note": "Production release remains blocked: synthetic cases, zero independent holdout units and unmeasured opportunity relevance."
+}

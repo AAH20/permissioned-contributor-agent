@@ -1,0 +1,14 @@
+Permissioned Contributor Agent
+Copyright 2026 A2Z SOC contributors.
+
+This distribution includes selected components and specialist reference templates
+from AAH20/A2Z_due-diligence-agents, originally developed as due-diligence-agents
+by Zohar Babin, under the Apache License 2.0. Original sources, revision and file
+hashes are recorded in contributor_agent/_vendor/dd/provenance.json.
+The graph module's utility import was made package-relative; its modification
+is marked in the file. Preserve upstream attribution and license notices.
+
+LangGraph, NetworkX and Pydantic are separately distributed dependencies with
+their own licenses. CNCF policy references are third-party documents and are not
+relicensed by this project. No CNCF, upstream-maintainer or vendor endorsement
+is implied.

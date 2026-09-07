@@ -1,0 +1,73 @@
+{
+  "version": "1.1",
+  "mode": "offline_proposals_only",
+  "mutable_parameters": [
+    "top_k",
+    "graph_hops",
+    "max_iterations"
+  ],
+  "immutable_parameters": [
+    "tenant_scope",
+    "consent",
+    "source_allowlist",
+    "external_actions_disabled",
+    "human_approval",
+    "retention",
+    "max_external_writes",
+    "max_model_calls",
+    "approval_ttl_seconds"
+  ],
+  "loop": {
+    "max_iterations": 2,
+    "max_seconds": 30,
+    "top_k": 3,
+    "max_context_chars": 12000,
+    "graph_hops": 1,
+    "max_model_calls": 0,
+    "max_external_writes": 0
+  },
+  "promotion": {
+    "minimum_independent_cases": 200,
+    "minimum_critical_cases": 50,
+    "critical_false_negatives": 0,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "unsupported_critical_claims": 0,
+    "citation_precision_min": 1.0,
+    "retrieval_recall_min": 0.95,
+    "relevance_at_5_min": 0.8,
+    "p95_seconds_max": 30,
+    "regression_tolerance": 0.0,
+    "human_release_approval_required": true,
+    "approval_bypasses": 0
+  },
+  "future_model_trial": {
+    "enabled": false,
+    "max_calls_per_case": 12,
+    "token_ceiling_per_case": 24000,
+    "cost_ceiling_usd_per_case": 2.0,
+    "temperature": 0,
+    "seed_if_supported": 42
+  },
+  "dataset": {
+    "split_unit": "organization_and_document_family",
+    "train_fraction": 0.6,
+    "development_fraction": 0.2,
+    "holdout_fraction": 0.2,
+    "freeze_holdout": true,
+    "include_adversarial_and_negative_cases": true
+  },
+  "rollback_triggers": [
+    "any_policy_violation",
+    "critical_false_negative",
+    "citation_regression",
+    "budget_exhaustion",
+    "source_policy_change",
+    "reviewer_stop"
+  ],
+  "proposal_only_future_parameters": [
+    "ranking_weights",
+    "specialist_prompt_version"
+  ]
+}

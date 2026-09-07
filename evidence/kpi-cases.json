@@ -1,0 +1,346 @@
+[
+  {
+    "case_id": "legal",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 7.833307608962059e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "msa"
+    ],
+    "retrieved_documents": [
+      "msa",
+      "security",
+      "register"
+    ],
+    "critical_gold": [
+      "legal"
+    ],
+    "critical_detected": [
+      "legal"
+    ],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": true
+      }
+    ]
+  },
+  {
+    "case_id": "finance",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 7.358379662036896e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "msa"
+    ],
+    "retrieved_documents": [
+      "msa",
+      "security",
+      "register"
+    ],
+    "critical_gold": [],
+    "critical_detected": [],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": false
+      }
+    ]
+  },
+  {
+    "case_id": "commercial",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 5.699973553419113e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "msa"
+    ],
+    "retrieved_documents": [
+      "msa",
+      "security",
+      "register"
+    ],
+    "critical_gold": [
+      "commercial"
+    ],
+    "critical_detected": [
+      "commercial"
+    ],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": true
+      }
+    ]
+  },
+  {
+    "case_id": "producttech",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 4.1624996811151505e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "security"
+    ],
+    "retrieved_documents": [
+      "security",
+      "msa",
+      "people"
+    ],
+    "critical_gold": [
+      "producttech"
+    ],
+    "critical_detected": [
+      "producttech"
+    ],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": true
+      }
+    ]
+  },
+  {
+    "case_id": "cybersecurity",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 4.875008016824722e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "security"
+    ],
+    "retrieved_documents": [
+      "security",
+      "msa",
+      "people"
+    ],
+    "critical_gold": [
+      "cybersecurity"
+    ],
+    "critical_detected": [
+      "cybersecurity"
+    ],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": true
+      }
+    ]
+  },
+  {
+    "case_id": "hr",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 3.616698086261749e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "people"
+    ],
+    "retrieved_documents": [
+      "people",
+      "security",
+      "msa"
+    ],
+    "critical_gold": [],
+    "critical_detected": [],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": false
+      }
+    ]
+  },
+  {
+    "case_id": "tax",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 4.683295264840126e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "people"
+    ],
+    "retrieved_documents": [
+      "people",
+      "security",
+      "msa"
+    ],
+    "critical_gold": [],
+    "critical_detected": [],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": false
+      }
+    ]
+  },
+  {
+    "case_id": "regulatory",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 4.100007936358452e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "register"
+    ],
+    "retrieved_documents": [
+      "register",
+      "security",
+      "people"
+    ],
+    "critical_gold": [
+      "regulatory"
+    ],
+    "critical_detected": [
+      "regulatory"
+    ],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": true
+      }
+    ]
+  },
+  {
+    "case_id": "esg",
+    "mode": "synthetic",
+    "independent_group": null,
+    "unauthorized_reads": 0,
+    "unauthorized_writes": 0,
+    "cross_tenant_leaks": 0,
+    "approval_bypasses": 0,
+    "external_writes": 0,
+    "model_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0,
+    "latency_seconds": 4.8459041863679886e-05,
+    "latency_scope": "retrieval_and_verification",
+    "iterations": 1,
+    "relevant_documents": [
+      "people"
+    ],
+    "retrieved_documents": [
+      "people",
+      "security",
+      "register"
+    ],
+    "critical_gold": [],
+    "critical_detected": [],
+    "relevant_opportunities": [],
+    "recommended_opportunities": [],
+    "abstained": false,
+    "completed": true,
+    "citations": [
+      {
+        "supported": true,
+        "critical": false
+      }
+    ]
+  }
+]

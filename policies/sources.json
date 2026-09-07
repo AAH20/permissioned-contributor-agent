@@ -1,0 +1,26 @@
+[
+  {
+    "path": "code-of-conduct.md",
+    "source": "https://raw.githubusercontent.com/cncf/foundation/25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e/code-of-conduct.md",
+    "commit": "25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e",
+    "sha256": "3fd5032bb138a9fe32f12cd1ca04cf10491a03badd9eafce498cadc8be593e7f"
+  },
+  {
+    "path": "slack-guidelines.md",
+    "source": "https://raw.githubusercontent.com/cncf/foundation/25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e/policies-guidance/slack-guidelines.md",
+    "commit": "25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e",
+    "sha256": "34d7055069d12f7044117ea84c9a7a1946dc64303d32869f7d7494cadb5805b6"
+  },
+  {
+    "path": "coc-committee-jurisdiction-policy.md",
+    "source": "https://raw.githubusercontent.com/cncf/foundation/25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e/code-of-conduct/coc-committee-jurisdiction-policy.md",
+    "commit": "25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e",
+    "sha256": "f6a89e790d516ca8881e4cc445d3b4c8f04abf79c381b451336970cf5b4f0531"
+  },
+  {
+    "path": "coc-incident-resolution-procedures.md",
+    "source": "https://raw.githubusercontent.com/cncf/foundation/25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e/code-of-conduct/coc-incident-resolution-procedures.md",
+    "commit": "25b83988f0e5f6b9a5594a44f8d9db3d37cdf19e",
+    "sha256": "d3e426ac5eac6816b8cf75bf82e4cd2fa3868b32d2a391668a3ff6bc076f1ff7"
+  }
+]

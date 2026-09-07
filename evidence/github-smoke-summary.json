@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-07",
+  "kind": "sanitized_historical_public_github_smoke_test",
+  "repositories": [
+    "kubernetes/website",
+    "prometheus/prometheus",
+    "envoyproxy/envoy"
+  ],
+  "public_api_reads": 6,
+  "issues_examined": 23,
+  "assigned_issues": 23,
+  "recommendations_after_assignment_filter": 0,
+  "baseline_recommendations_before_fix": 5,
+  "outcome": "abstained",
+  "scope": "Bounded first page; not a census of available opportunities. Historical test, not rerun during standalone preparation.",
+  "limitations": [
+    "language fit not validated",
+    "personal recommendation relevance not measured"
+  ],
+  "session_data": "not included"
+}
